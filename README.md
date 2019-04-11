@@ -1,10 +1,10 @@
-#About the project
+# About the project
 
 This is a open source project, which is designed to serve for the simple market making purposes as well as the traditional simple quantitative trading requirements for cryptocurrencies
 
 This system will for now include some basic building blocks of a trading system, such as alpha model, risk model, might include transaction cost model and optimization model. It depends on the time. 
 
-##The current structure of the project:
+## The current structure of the project:
 
 accounts: multi-exchange account management
 exchanges: exchange apis
