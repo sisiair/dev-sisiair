@@ -18,3 +18,12 @@ utils: the helper functions and classes of the system
 
 system.ini: used to store the related properties
 
+## TODOs:
+1. major exchange api integration
+
+2. balance manage management/ tracking system
+
+3. real time data feeds messaging system
+
+4. strategy templates
+
