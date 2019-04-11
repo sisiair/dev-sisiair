@@ -7,8 +7,14 @@ This system will for now include some basic building blocks of a trading system,
 ## The current structure of the project:
 
 accounts: multi-exchange account management
+
 exchanges: exchange apis
+
 files: abis for contractland's terra chain
+
 handlers: independent tasks such as auto placing buy orders, sell orders and so on 
+
 utils: the helper functions and classes of the system
+
 system.ini: used to store the related properties
+
