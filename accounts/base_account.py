@@ -35,6 +35,7 @@ class BaseAccount(object):
         data.update(account_info)
         is_exist = self._mongo_col.find_one({"name": self.name, "type": self.type})
         if is_exist:
+            data = {"$set": data}
             self._mongo_col.update_one({"_id": is_exist["_id"]}, data)
         else:
             self._mongo_col.insert(data)

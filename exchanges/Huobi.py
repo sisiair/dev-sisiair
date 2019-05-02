@@ -147,7 +147,7 @@ class Huobi(BaseExchange):
         return cls()
 
     @staticmethod
-    def getOrderBook(limit=1):
+    def get_order_book(limit=1):
         pass
 
 
